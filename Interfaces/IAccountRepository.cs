@@ -5,6 +5,7 @@ namespace blueberry.Interfaces
 {
     public interface IAccountRepository
     {
+        // Lấy quyền của tài khoản
         Task<IList<string>> GetRolesAsync(AppUser user);
         // Tạo token xác nhận mail
         Task<string> GenerateEmailConfirmationTokenAsync(AppUser user);

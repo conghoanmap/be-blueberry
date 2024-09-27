@@ -146,3 +146,4 @@ C:\Users\ADMIN\Documents\Me\Learn.NET\blueberry\obj\Debug\net8.0\refint\blueberr
 C:\Users\ADMIN\Documents\Me\Learn.NET\blueberry\obj\Debug\net8.0\blueberry.pdb
 C:\Users\ADMIN\Documents\Me\Learn.NET\blueberry\obj\Debug\net8.0\blueberry.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\Me\Learn.NET\blueberry\obj\Debug\net8.0\ref\blueberry.dll
+C:\Users\ADMIN\Documents\Me\Learn.NET\blueberry\obj\Debug\net8.0\blueberry.sourcelink.json

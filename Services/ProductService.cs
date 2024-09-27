@@ -27,12 +27,13 @@ namespace blueberry.Services
             {
                 try
                 {
+                    product.ProductId = await GenerateProductIdAsync();
                     await _context.Products.AddAsync(product);
                     await _context.SaveChangesAsync();
                     await transaction.CommitAsync();
                     return product;
                 }
-                catch (System.Exception)
+                catch (System.Exception ex)
                 {
                     await transaction.RollbackAsync();
                     return null;

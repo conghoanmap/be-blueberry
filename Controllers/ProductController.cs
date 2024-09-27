@@ -55,8 +55,8 @@ namespace blueberry.Controllers
                 return BadRequest(ModelState);
             }
             var productModel = productRequest.RequestToModel();
-            await _productRepository.CreateAsync(productModel);
-            return CreatedAtAction(nameof(GetProductById), new { id = productModel.ProductId }, productModel.ModelToDisplay());
+            var productCreate = await _productRepository.CreateAsync(productModel);
+            return Ok(productCreate.ModelToDisplay());
         }
 
         [HttpPut]

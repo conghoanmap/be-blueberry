@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("blueberry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7a1f84c8b61c0ab2fae67d1ade86dc6591342d")]
 [assembly: System.Reflection.AssemblyProductAttribute("blueberry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("blueberry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
